@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roberth Sanchez</title>
+    <script src="https://kit.fontawesome.com/c7b698449f.js" crossorigin="anonymous"></script>
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <img src="img/mi-logo.png" alt="logo de mi pagina">
+        <img class="logo" src="img/mi-logo.png" alt="logo de mi pagina">
         <nav>
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
@@ -19,24 +20,29 @@
             </ul>
         </nav>   
     </header>
-    <hr>
     <main>
         <section id="inicio">
-            <img src="img/foto-perfil.jpg" alt="mi foto de perfil">
+            <img class="foto-perfil" src="img/foto-perfil.jpg" alt="mi foto de perfil">
             <h1>Hola!! Soy Roberth...</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, impedit aperiam praesentium fugit aliquam 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, impedit aperiam praesentium fugit aliquam 
                 earum nesciunt, fugiat magnam sunt, vitae necessitatibus ipsum cum consequuntur. Voluptatibus placeat 
                 culpa dolor! Illum, cum.</p>
-            <a href="pdf/Cv-Roberth Sanchez.pdf"  download="Cv-Roberth Sanchez" target="_blank">Descargar mi CV</a>
+                <br>
+            <a href="pdf/Cv-Roberth Sanchez.pdf" id="boton-descarga"  download="Cv-Roberth Sanchez" target="_blank">Descargar mi CV</a>
         </section>
+
         <section id="contacto">
-            <article>
-                <h2>Hablemos!</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo possimus dicta veniam optio, saepe 
+            <article class="mas-info">
+               <h2>Hablemos!</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo possimus dicta veniam optio, saepe 
+                    debitis officia quod pariatur laboriosam sunt hic quos. Sapiente, excepturi rem nam possimus 
+                    qui facere. Officia?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo possimus dicta veniam optio, saepe 
                     debitis officia quod pariatur laboriosam sunt hic quos. Sapiente, excepturi rem nam possimus 
                     qui facere. Officia?</p>
             </article>
-            <article>
+
+            <article class="mis-redes">
                 <ul>
                     <li><a href="mailto:elcorreoquequieres@correo.com" target="_blank"><img src="img/mail.png" alt="logo de mail"></a></li>
                     <li><a href="https://github.com/" target="_blank"><img src="img/github.png" alt="logo de github"></a></li>
@@ -44,6 +50,8 @@
                 </ul>
             </article>
         </section>
+
+        <a href="#inicio"><i class="fa-solid fa-arrow-up fa-beat fa-2x"></i></a>
     </main>
     <footer>
         <p>Copyright © 2023 Roberth Sánchez</p>
